@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/message_row_imgAvatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/message_row_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/message_row_imgAvatar"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+
+        android:textSize="16sp"
+        android:textColor="#010101"
+        android:text="Name"
+        android:fontFamily="@font/roboto_black"
+        />
+
+    <TextView
+        android:id="@+id/message_row_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_row_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="65dp"
+
+        android:textSize="14sp"
+        android:layout_toEndOf="@+id/message_row_imgAvatar"
+        android:text="Lorum asup to bean noise orr aos"/>
+    <TextView
+        android:id="@+id/message_row_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:text="1 hour"/>
+
+</RelativeLayout>

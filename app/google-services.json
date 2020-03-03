@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "49694308210",
+    "firebase_url": "https://personal-app-blog.firebaseio.com",
+    "project_id": "personal-app-blog",
+    "storage_bucket": "personal-app-blog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49694308210:android:9547a1e91b666c2a56cfeb",
+        "android_client_info": {
+          "package_name": "com.johnnghia.mvvmproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49694308210-kc530g072ahsgj1q6to9u49j0emqll84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DI24CjJrRH3PdF1S--08ZEiRdY27MtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49694308210-kc530g072ahsgj1q6to9u49j0emqll84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

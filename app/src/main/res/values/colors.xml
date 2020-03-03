@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyan -->
+    <color name="colorPrimary">#eeeeee</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryLight">#c38fff</color>
+
+    <!-- Green -->
+    <color name="colorSecond">#ffffff</color>
+    <color name="colorSecondLight">#B9F6CA</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Text -->
+    <color name="colorText">#87000000</color>
+    <color name="colorSecondText">#54000000</color>
+    <color name="colorHintText">#26000000</color>
+    <color name="colorDividers">#12000000</color>
+</resources>

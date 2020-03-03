@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nv_left_menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/outline_person_24"
+        />
+    <item
+        android:id="@+id/nv_left_menu_list"
+        android:title="Lists"
+        android:icon="@drawable/outline_list_alt_24"
+        />
+    <item
+        android:id="@+id/nv_left_menu_topics"
+        android:title="Topics"
+        android:icon="@drawable/outline_question_answer_24"
+        />
+    <item
+        android:id="@+id/nv_left_menu_bookmark"
+        android:title="Bookmarks"
+        android:icon="@drawable/outline_bookmark_border_24"
+        />
+    <item
+        android:id="@+id/nv_left_menu_moment"
+        android:title="Moments"
+        android:icon="@drawable/outline_offline_bolt_24"
+        />
+</menu>
